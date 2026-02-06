@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="OrangeHRM.LoginTest">
+        <methods>
+          <include name="InvalidLoginTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="validloginTest"/>
+        </methods>
+      </class> <!-- OrangeHRM.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
